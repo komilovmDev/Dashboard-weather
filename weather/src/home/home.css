@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Rubik:ital@0;1&display=swap');
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    background-color: #111015;
+    font-family: "Mukta", sans-serif;
+}
+
+.home nav {
+    width: 100vw;
+    height: 70px;
+    padding: 20px  20px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.navLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+.navLeft button {
+    height: 50px;
+    width: 50px;
+    background-color: #1B1B1D;
+    border-radius: 50%;
+    border: none;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navLoc {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navLoc button {
+    background-color: transparent;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.serach {
+    width: 492px;
+    height: 50px;
+    background-color: #1B1B1D;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    gap: 10px;
+}
+
+.serach button {
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    color: white;
+}
+
+.serach input {
+    flex-grow: 1;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+.serach input::placeholder {
+    color: #EDEDED99;
+    font-weight: 500;
+}
+
+.navRightMenu {
+
+}
+
+.navRightMenu .profilIm {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navRightMenu .profilIm img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
